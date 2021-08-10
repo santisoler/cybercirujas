@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "retro";
+  src: url(retro.ttf);
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "retro";
+}
+
+p {
+  text-align: left;
+}
+
+h1 {
+  color: rgb(25, 216, 51);
+  background-size: cover;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(104, 14, 96);
+  font-size: 20px;
+  color: rgb(25, 216, 51);
+  text-align: center;
+}
+
+header {
+  min-height: 120px;
+  background-image: url(../img/banner-h1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  background-color: rgb(43, 226, 67);
+  margin: 2px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+nav {
+  margin: 10px 0;
+}
+
+.nav-item:hover {
+  background-color: rgb(144, 43, 226);
+}
+
+main {
+  margin: 0 50px;
+}
+
+.wrap ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+section {
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+#fotos img {
+  max-width: 300px;
+  margin: 5px;
+}
+
+.wrap-img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#encuentros a {
+  color: chartreuse;
+  text-decoration: none;
+}
+
+#reglas ul {
+  text-align: left;
+}
+
+#mail {
+  font-size: 14px;
+}
