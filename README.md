@@ -3,7 +3,7 @@
 
 ## Licencia
 
-El código fuente de la página web se encuentra disponible bajo licencia GPL v2.
+El código fuente de la página web se encuentra disponible bajo licencia LGPL v2.
 El texto completo de la licencia se encuentra dentro del archivo
 [LICENSE](LICENSE).
 
